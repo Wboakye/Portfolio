@@ -1,19 +1,44 @@
 import React from "react";
-
-import rigoImage from "../../img/rigo-baby.jpg";
 import "../../styles/home.css";
+import { Link } from "react-router-dom";
+import Navbar from "../component/navbar.jsx";
 
 export class Home extends React.Component {
 	render() {
 		return (
-			<div className="text-center mt-5">
-				<h1>Hello Rigo!</h1>
-				<p>
-					<img src={rigoImage} />
-				</p>
-				<a href="#" className="btn btn-success">
-					If you see this green button, bootstrap is working
-				</a>
+			<div>
+				<Navbar />
+				<header id="header">
+					<div className="overlay" />
+					<video id="background-video" loop autoPlay>
+						<source src="../../img/treevid.mp4" type="video/mp4" />
+						<source src="../../img/treevid.mp4" type="video/ogg" />
+						Your browser does not support the video tag.
+					</video>
+					<div className="container h-100">
+						<div className="d-flex h-100 text-center align-items-center">
+							<div className="w-100 text-white">
+								<h1 className="display-3">ROLANDO RODRIGUEZ</h1>
+								<br />
+								<ul
+									className="nav nav-pills nav-justified"
+									id="nav">
+									<li className="nav-item">
+										<Link to="/demo">
+											<span>
+												<a
+													className="mx-1"
+													id="homeButton">
+													<h3>Enter</h3>
+												</a>
+											</span>
+										</Link>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</header>
 			</div>
 		);
 	}

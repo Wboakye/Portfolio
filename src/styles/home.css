@@ -1,0 +1,122 @@
+
+
+#container {
+  position: relative;
+
+}
+
+#imageWrapper{
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://lh3.googleusercontent.com/Z2aGUo7_uI8kF7Kuq4v-5ZzhDpvb4Y36nRAIxNyhpYfGGC0ENOmgrUjONyxn4bxmJqZtI9bxp9OERERrSq6I2Fj7XhCd8XTyoZPKJepz7QPvXSZStn6ITUYFC4BWCQ3JyEQPNkOM5dtBwav5hPyipl_nwmzvp8qK0dyD7mpC2ckJSGBwVQ7ac77uCt9zsR2sJcPA_RAlXcbqUo4ZXL-6W-9NSutYF1fnMuNcZREKibD-pZg4MfzQUzY8EQp3M5hVsH8P9_F9di4erzN5JHIwobLGbbgFzUefsQNUD0FQH7B-WIL1OVaqUQoPyZP8SrdrjAL3n4YxpDNiBADqJooa789Vp3mGJ6L90j-KE0dW0aT8cJu7tNrC80_nRsC8SZaw44_9WeIzvUwXZELKGA1dTVvfK2RosXt7rfCrKD6jiVLZDpLQcaq-G4lKxAx6ykZWKwgiYgrJANgf3V9BTOeMqmcVhVI7tO_R2m-El03AcCQQvDFCZ__IAxECgLaSRHpKMLUnC6qgWdvK7_DxqbKMtlz8gKaR44P5l3aafPPEuNmgZW-FL1Kk29BWpOQXPhtzQi2MfqxTGM_6N1oVCF96DQSVOJVgojNvulh191LHzRCKmwEP8sMF7IwScNJu0zdKygA62d7u2a38blGLmtjUcgm9ir6hTJc=w1242-h828-no');
+
+
+
+}
+
+#innerImage{
+  position: absolute;
+  z-index: 1;
+}
+
+
+#mainImage {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+
+
+
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #999999;
+}
+
+#container:hover .overlay {
+  opacity: .8;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#homeButton{
+  transition: .5s ease;
+  text-decoration: none; 
+  color: #ffffff
+}
+
+#homeButton:hover{
+  color: grey;
+  text-decoration: none;
+}
+
+
+#navColor{
+  color: white;
+}
+
+
+header {
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0;
+    z-index: 1;
+  }
+  

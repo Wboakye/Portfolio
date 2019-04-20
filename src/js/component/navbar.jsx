@@ -1,22 +1,32 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import "../../styles/home.css";
 
-export class Navbar extends React.Component {
+export default class Navbar extends React.Component {
 	render() {
 		return (
-			<nav className="navbar navbar-light bg-light mb-3">
-				<Link to="/">
-					<span className="navbar-brand mb-0 h1">
-						React Webapp Boilerplate
-					</span>
-				</Link>
-				<div className="ml-auto">
-					<Link to="/demo">
-						<button className="btn btn-primary">
-							Check the Context in action
-						</button>
-					</Link>
-				</div>
+			<nav className="navbar fixed-top navbar-light bg-transparent">
+				<span className="navbar-brand ml-auto" id="navColor">
+					<h1>
+						<b>
+							<div className="row mt-2">
+								<div className="col-sm">
+									<i
+										className="fab fa-facebook-f mx-1"
+										id="homeButton"
+									/>
+									<i
+										className="fab fa-instagram mx-1"
+										id="homeButton"
+									/>
+									<i
+										className="far fa-envelope mx-1"
+										id="homeButton"
+									/>
+								</div>
+							</div>
+						</b>
+					</h1>
+				</span>
 			</nav>
 		);
 	}

@@ -6,6 +6,7 @@ import { Home } from "./views/home.jsx";
 import { Demo } from "./views/demo.jsx";
 import { Single } from "./views/single.jsx";
 import injectContent from "./store/appContext.jsx";
+import "../styles/home.css";
 
 import { Navbar } from "./component/navbar.jsx";
 import { Footer } from "./component/footer.jsx";
@@ -14,17 +15,15 @@ import { Footer } from "./component/footer.jsx";
 export class Layout extends React.Component {
 	render() {
 		return (
-			<div className="d-flex flex-column h-100">
+			<div className="d-flex flex-column p-0" id="mainWrapper">
 				<BrowserRouter>
 					<ScrollToTop>
-						<Navbar />
 						<Switch>
 							<Route exact path="/" component={Home} />
 							<Route path="/demo" component={Demo} />
 							<Route path="/single/:theid" component={Single} />
 							<Route render={() => <h1>Not found!</h1>} />
 						</Switch>
-						<Footer />
 					</ScrollToTop>
 				</BrowserRouter>
 			</div>
