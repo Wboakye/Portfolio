@@ -9,16 +9,13 @@ export class Home extends React.Component {
 			<div>
 				<Navbar />
 				<header id="header">
-					<div className="overlay" />
-					<video id="background-video" loop autoPlay>
-						<source src="../../img/treevid.mp4" type="video/mp4" />
-						<source src="../../img/treevid.mp4" type="video/ogg" />
-						Your browser does not support the video tag.
-					</video>
+					<div id="imageWrapper" />
 					<div className="container h-100">
 						<div className="d-flex h-100 text-center align-items-center">
 							<div className="w-100 text-white">
-								<h1 className="display-3">ROLANDO RODRIGUEZ</h1>
+								<h1 className="display-3" id="homeText">
+									ROLANDO RODRIGUEZ
+								</h1>
 								<br />
 								<ul
 									className="nav nav-pills nav-justified"

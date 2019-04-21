@@ -7,16 +7,12 @@ import "../../styles/demo.css";
 export default class MainPic extends React.Component {
 	render() {
 		return (
-			<div>
+			<div className="p-3">
 				<img
-					className="w-100 p-0 rounded shadow"
+					className="w-100 rounded shadow"
 					id="mainImage"
 					src={mainImage}
 				/>
-
-				<Link to="/">
-					<button className="btn btn-primary">Back home</button>
-				</Link>
 			</div>
 		);
 	}
