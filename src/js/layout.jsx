@@ -18,8 +18,8 @@ export class Layout extends React.Component {
 						render={location => (
 							<TransitionGroup>
 								<CSSTransition
-									key={location.key}
-									timeout={30000}
+									key={window.location}
+									timeout={300}
 									classNames="fade">
 									<Switch>
 										<Route

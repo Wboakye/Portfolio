@@ -14,7 +14,8 @@ export class Home extends React.Component {
 						<div className="d-flex h-100 text-center align-items-center">
 							<div className="w-100 text-white">
 								<h1 className="display-3" id="homeText">
-									ROLANDO RODRIGUEZ
+									Hello, my name is Rolando. <br />I capture
+									moments.
 								</h1>
 								<br />
 								<ul

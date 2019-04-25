@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default class Navbar2 extends React.Component {
 	render() {
 		return (
-			<nav className="navbar fixed-top navbar-light bg-transparent">
+			<nav className="navbar fixed-top navbar-dark bg-transparent">
 				<Link to="/">
 					<span className="navbar-brand mb-0 h1" id="roText">
 						<h3>
@@ -20,15 +20,15 @@ export default class Navbar2 extends React.Component {
 								<div className="col-sm">
 									<i
 										className="fab fa-facebook-f mx-1"
-										id="homeButton"
+										id="homeButton2"
 									/>
 									<i
 										className="fab fa-instagram mx-1"
-										id="homeButton"
+										id="homeButton2"
 									/>
 									<i
 										className="far fa-envelope mx-1"
-										id="homeButton"
+										id="homeButton2"
 									/>
 								</div>
 							</div>

@@ -1,4 +1,4 @@
-
+@import url("https://fonts.googleapis.com/css?family=Dosis|Maven+Pro|Poppins:300|Raleway|Titillium+Web:300");
 
 #container {
   position: relative;
@@ -31,13 +31,13 @@
 
 .portContainer {
   position: relative;
-  width: 100%;
+  width: auto;
 }
 
 #portImage {
   display: block;
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
 }
 
 .overlay {
@@ -72,10 +72,22 @@
 #homeButton{
   transition: .5s ease;
   text-decoration: none; 
-  color: #ffffff
+  color: #f2f2f2
 }
 
 #homeButton:hover{
+  color: #d9d9d9;
+  text-decoration: none;
+}
+
+#homeButton2{
+  transition: .5s ease;
+  text-decoration: none; 
+  color: #404040
+
+}
+
+#homeButton2:hover{
   color: grey;
   text-decoration: none;
 }
@@ -131,13 +143,11 @@ header {
   right: 0;
 }
 
-.fade-appear,
 .fade-enter{
   opacity: 0;
   z-index: 1;
 }
 
-.fade-appear-active,
 .fade-enter.fade-enter-active{
   opacity: 1;
   transition: opacity 300ms linear 150ms;
@@ -174,11 +184,11 @@ fade-exit.fade-exit-active{
 
 #roText{
   font-family: 'Dosis', sans-serif;
-  color: white;
+  color: black;
 }
 
 #homeText{
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 #horizontal {
@@ -186,4 +196,44 @@ fade-exit.fade-exit-active{
   flex-wrap: nowrap;
   overflow-x: auto;
 }
+
+#demoHead{
+  height: 100vh;
+  text-align: center;  
+
+}
+
+#demoHeadWrapper{
+  margin: 0 auto;
+  
+
+}
+
+#demoWrapper{
+  position: relative;
+}
+
+#bodyWrapper{
+  position: absolute;
+}
+
+#demoHeadText{
+  margin: 0;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 500%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) 
+
+}
+
+#arrow{
+  position: absolute;
+  bottom: 5%;
+}
+
+
+
 

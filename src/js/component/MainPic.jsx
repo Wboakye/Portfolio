@@ -1,18 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import mainImage from "../../img/mainImage.jpg";
+import MainImage from "../../img/mainImage.jpg";
 
 import "../../styles/demo.css";
 
 export default class MainPic extends React.Component {
 	render() {
 		return (
-			<div className="p-3">
+			<div className="portContainer">
 				<img
-					className="w-100 rounded shadow"
-					id="mainImage"
-					src={mainImage}
+					src={MainImage}
+					alt="Avatar"
+					className="image rounded shadow-lg"
+					id="portImage"
 				/>
+				<div className="overlay rounded shadow-lg">
+					<div className="text">Hello World</div>
+				</div>
 			</div>
 		);
 	}
