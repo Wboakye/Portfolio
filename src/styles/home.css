@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Dosis|Maven+Pro|Poppins:300|Raleway|Titillium+Web:300");
 
+
+
+
+
 #container {
   position: relative;
 
@@ -38,6 +42,7 @@
   display: block;
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 
 .overlay {
@@ -220,7 +225,7 @@ fade-exit.fade-exit-active{
 #demoHeadText{
   margin: 0;
   font-family: 'Titillium Web', sans-serif;
-  font-size: 500%;
+  font-size: 300%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -232,6 +237,11 @@ fade-exit.fade-exit-active{
 #arrow{
   position: absolute;
   bottom: 5%;
+}
+
+#footer{
+  background-color: #262626;
+  color: #c9c9c9;
 }
 
 

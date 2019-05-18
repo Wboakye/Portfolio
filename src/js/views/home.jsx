@@ -5,6 +5,7 @@ import Navbar from "../component/navbar.jsx";
 
 export class Home extends React.Component {
 	render() {
+		let opening = "Hello, my name is Will. I'm a web developer.";
 		return (
 			<div>
 				<Navbar />
@@ -13,9 +14,8 @@ export class Home extends React.Component {
 					<div className="container h-100">
 						<div className="d-flex h-100 text-center align-items-center">
 							<div className="w-100 text-white">
-								<h1 className="display-3" id="homeText">
-									Hello, my name is Rolando. <br />I capture
-									moments.
+								<h1 className="display-4" id="homeText">
+									{opening}
 								</h1>
 								<br />
 								<ul

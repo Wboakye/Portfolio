@@ -1,12 +1,13 @@
 import React, { Component } from "react";
+import "../../styles/home.css";
 
-export class Footer extends Component {
+export default class Footer extends Component {
 	render() {
 		return (
-			<footer className="footer mt-auto py-3 text-center">
+			<footer className="footer mt-5 py-3 text-center" id="footer">
 				<p>
-					Made with <i className="fa fa-heart text-danger" /> by{" "}
-					<a href="http://www.4geeksacademy.com">4Geeks Academy</a>
+					Lets work together. <br />
+					<i className="fas fa-camera" />
 				</p>
 			</footer>
 		);

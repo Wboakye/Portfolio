@@ -9,7 +9,7 @@ export default class Navbar2 extends React.Component {
 				<Link to="/">
 					<span className="navbar-brand mb-0 h1" id="roText">
 						<h3>
-							<i>ROLANDO RODRIGUEZ</i>
+							<i>WILLIAM BOAKYE</i>
 						</h3>
 					</span>
 				</Link>
