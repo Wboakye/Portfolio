@@ -7,23 +7,41 @@ import Footer from "../component/footer.jsx";
 
 export class AboutMe extends Component {
 	render() {
-		let bio =
-			"I am a web developer who is eager to be part of and grow with a team who’s mission I am excited about. If you take a look at my github you’ll see that I enjoy spending my free time developing and building out projects in React.js and Django/Python and everything I do has an emphasis on being responsive and mobile first. I began my foray into development a few years ago out of pure curiosity, but eventually found myself doing it as a hobby. The only plausible next step for me would be to jump from self-learning to formal education. So, I enrolled into a full-stack web development bootcamp in Miami, 4Geeks Academy. There is where I learned the brunt of what I know now in regard to the field.";
+		let bio = [
+			"Here comes the bio...",
+			"Born and raised in Broward, Florida, where the sun is rich and the food has sabor, I spent much of my early life working in retail and customer service.",
+			"In 2015 I moved south to Miami where I eventually joined the U.S. Air Force Researve and began working as an avionics technician on the F-16 Fighting Falcon.",
+			"Simultaneously, I began teaching myself how to code, and eventually enrolled into a Web Development bootcamp (4Geeks Academy) which served as a catalyst in my development carreer."
+		];
 		return (
 			<div id="aboutMeWrapper">
 				<Navbar2 />
 				<div className="container mt-4 pt-4">
-					<div className="row justify-content-center mt-3 pt-3">
-						<div className="col-md-5 my-2">
+					<div className="row mt-3 pt-3">
+						<div className="col-md-12 my-2 d-flex justify-content-center ">
 							<img
 								src={MePic}
 								alt="Avatar"
-								className="image rounded shadow-lg"
+								className="image rounded-circle shadow-lg w-50"
 								id="portImage"
 							/>
 						</div>
-						<div className="col-md-5 my-2">
-							<p>{bio}</p>
+						<div className="col-md-12 my-2 text-center ">
+							<h1>{bio[0]}</h1>
+						</div>
+					</div>
+					<div className="row my-3">
+						<div className="col-md-4 text-center">
+							<i className="fas fa-umbrella-beach fa-3x" />
+							<p>{bio[1]}</p>
+						</div>
+						<div className="col-md-4 text-center">
+							<i className="fas fa-fighter-jet fa-3x" />
+							<p>{bio[2]}</p>
+						</div>
+						<div className="col-md-4 text-center">
+							<i className="fas fa-laptop-code fa-3x" />
+							<p>{bio[3]}</p>
 						</div>
 					</div>
 				</div>

@@ -13,7 +13,7 @@ import "../../styles/home.css";
 export class Demo extends React.Component {
 	render() {
 		let speach = [
-			"Finding real world solutions to digital problems isn't always easy.",
+			"Finding real-world solutions to digital problems isn't always easy.",
 			"Thats why I'm here to help...",
 			"I'm a problem solver.",
 			"I'm a communicator.",
