@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import MainImage from "../../img/mainImage.jpg";
 import MainPic from "../component/MainPic.jsx";
 import Navbar2 from "../component/navbar2.jsx";
-import ParkitAppPic from "../../img/ParkitAppPic.jpg";
-import RolandoPortfolioPic from "../../img/RolandoPortfolioPic.jpg";
+import ParkitAppPic from "../../img/ParkitAppPic.png";
+import RolandoPortfolioPic from "../../img/RolandoPortfolioPic.png";
 
 import Footer from "../component/footer.jsx";
 
@@ -80,14 +80,16 @@ export class Demo extends React.Component {
 								className="image rounded shadow-lg"
 								id="portImage"
 							/>
-							<div className="overlay rounded shadow-lg">
-								<div className="text">
-									<h5>Photographer Portfolio</h5>
-									<i className="fab fa-html5 fa-2x " />
-									<i className="fab fa-css3-alt fa-2x" />
-									<i className="fab fa-js-square fa-2x" />
+							<Link to="/roportfolio">
+								<div className="overlay rounded shadow-lg">
+									<div className="text">
+										<h5>Photographer Portfolio</h5>
+										<i className="fab fa-html5 fa-2x " />
+										<i className="fab fa-css3-alt fa-2x" />
+										<i className="fab fa-js-square fa-2x" />
+									</div>
 								</div>
-							</div>
+							</Link>
 						</div>
 					</div>
 					<div className="col-lg-4 pt-3">

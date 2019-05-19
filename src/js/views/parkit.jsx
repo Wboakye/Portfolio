@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import ParkitAppPic from "../../img/ParkitAppPic.jpg";
+import ParkitAppPic from "../../img/ParkitAppPic.png";
 import PIAHomeM from "../../img/PIAHomeM.jpg";
-import PIAMap from "../../img/PIAMap.jpg";
-import PIASignUp from "../../img/PIASignUp.jpg";
+import PIAMap from "../../img/PIAMap.png";
+import PIASignUp from "../../img/PIASignUp.png";
 import PIASignUpM from "../../img/PIASignUpM.jpg";
 import Footer from "../component/footer.jsx";
 import Navbar2 from "../component/navbar2.jsx";

@@ -242,6 +242,7 @@ fade-exit.fade-exit-active{
 #footer{
   background-color: #262626;
   color: #c9c9c9;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 #parkitP{
@@ -286,6 +287,7 @@ fade-exit.fade-exit-active{
 
 #aboutMeWrapper{
   height: 100%;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 

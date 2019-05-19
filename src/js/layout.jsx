@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { Home } from "./views/home.jsx";
 import { Demo } from "./views/demo.jsx";
 import { Parkit } from "./views/parkit.jsx";
+import { RoPortfolio } from "./views/roPortfolio.jsx";
 import { AboutMe } from "./views/aboutMe.jsx";
 import { Single } from "./views/single.jsx";
 import injectContent from "./store/appContext.jsx";
@@ -33,6 +34,10 @@ export class Layout extends React.Component {
 										<Route
 											path="/parkit"
 											component={Parkit}
+										/>
+										<Route
+											path="/roportfolio"
+											component={RoPortfolio}
 										/>
 										<Route
 											path="/aboutme"
