@@ -21,7 +21,7 @@ export class Demo extends React.Component {
 			"I'm a web developer"
 		];
 		let explained = [
-			"I do what I do for the endorphin rush of the accomplishment. I break overbearing problems into manageable pieces so that the small wins keep on coming.",
+			"I do what I do for the endorphin rush of the accomplishment. I break overbearing problems into well-organized pieces, and in doing so, the small wins keep on coming.",
 			"I'm curious. Some might even say I'm knowsey. I'm easily intrigued things I don't know how to do. Leisure time for me is getting stuck in a 2 hour Wikipedia hole reading about all the possibilities of blockchain tech (true story)."
 		];
 		return (
@@ -129,6 +129,7 @@ export class Demo extends React.Component {
 						<div className="col-12 text-center">
 							<h2>
 								<b>{speach[5]}</b>
+								<br />
 								<Link to="/aboutme">
 									<button
 										type="button"
