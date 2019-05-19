@@ -56,7 +56,7 @@ export class RoPortfolio extends Component {
 							</div>
 							<div className="col-4">
 								<a
-									href="https://github.com/wboakye/parkingapp"
+									href="https://github.com/wboakye/practicePortfolio"
 									className="btn btn-secondary rounded-0"
 									role="button"
 									aria-disabled="true">
