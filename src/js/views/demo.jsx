@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import MainImage from "../../img/mainImage.jpg";
 import MainPic from "../component/MainPic.jsx";
 import Navbar2 from "../component/navbar2.jsx";
-import PortfolioPic from "../../img/PortfolioPic.png";
 import ParkitAppPic from "../../img/ParkitAppPic.jpg";
 import RolandoPortfolioPic from "../../img/RolandoPortfolioPic.jpg";
+import MePic from "../../img/MePic.jpg";
 
 import Footer from "../component/footer.jsx";
 
@@ -13,6 +13,18 @@ import "../../styles/home.css";
 
 export class Demo extends React.Component {
 	render() {
+		let speach = [
+			"Finding real world solutions to digital problems isn't always easy.",
+			"Thats why I'm here to help...",
+			"I'm a problem solver.",
+			"I'm a communicator.",
+			"I'm skill chaser.",
+			"I'm a web developer"
+		];
+		let explained = [
+			"I do what I do for the endorphin rush of the accomplishment. I break overbearing problems into manageable pieces so that the small wins keep on coming.",
+			"I'm curious. Some might even say I'm knowsey. I'm easily intrigued things I don't know how to do. Leisure time for me is getting stuck in a 2 hour Wikipedia hole reading about all the possibilities of blockchain tech (true story)."
+		];
 		return (
 			<div className="container-fluid p-0" id="demoWrapper">
 				<Navbar2 />
@@ -49,9 +61,16 @@ export class Demo extends React.Component {
 								className="image rounded shadow-lg"
 								id="portImage"
 							/>
-							<div className="overlay rounded shadow-lg">
-								<div className="text">Park.it</div>
-							</div>
+							<Link to="/parkit">
+								<div className="overlay rounded shadow-lg">
+									<div className="text">
+										<h5>Park.it</h5>
+										<i className="fab fa-js-square fa-2x" />
+										<i className="fab fa-react fa-2x" />
+										<i className="fab fa-python fa-2x" />
+									</div>
+								</div>
+							</Link>
 						</div>
 					</div>
 					<div className="col-lg-4 pt-3">
@@ -64,13 +83,55 @@ export class Demo extends React.Component {
 							/>
 							<div className="overlay rounded shadow-lg">
 								<div className="text">
-									Photographer Portfolio
+									<h5>Photographer Portfolio</h5>
+									<i className="fab fa-html5 fa-2x " />
+									<i className="fab fa-css3-alt fa-2x" />
+									<i className="fab fa-js-square fa-2x" />
 								</div>
 							</div>
 						</div>
 					</div>
 					<div className="col-lg-4 pt-3">
 						<MainPic />
+					</div>
+				</div>
+				<div className="container mt-5" id="demoSpeach">
+					<div className="row">
+						<div className="col-md-6 justify-content-center">
+							<h3>
+								<b>{speach[0]}</b>{" "}
+							</h3>{" "}
+							<h5>{speach[1]}</h5>
+							<br />{" "}
+						</div>
+						<div className="col-md-6">
+							<div>
+								<h5>{speach[2]} </h5>
+								<p>{explained[0]}</p>
+							</div>
+							<div>
+								<h5>{speach[3]} </h5>
+								<p>
+									I have a <strike>prolonged</strike>{" "}
+									<strike>drawn-out</strike>{" "}
+									<b>distinguished</b> history in retail. What
+									I gained from it was an industrial strength
+									need to facilitate communication and common
+									understanding.{" "}
+								</p>
+							</div>
+							<div>
+								<h5>{speach[4]} </h5>
+								<p>{explained[1]}</p>
+							</div>
+						</div>
+					</div>
+					<div ClassName="row">
+						<div className="col-12 text-center">
+							<h2>
+								<b>{speach[5]}</b>
+							</h2>
+						</div>
 					</div>
 				</div>
 

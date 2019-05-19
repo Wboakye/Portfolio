@@ -244,6 +244,45 @@ fade-exit.fade-exit-active{
   color: #c9c9c9;
 }
 
+#parkitP{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+#parkitTitle{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 300%;
+}
+ 
+#demoSpeach{
+  font-family: 'Titillium Web', sans-serif;
+
+}
+
+#homeButton:link {
+  text-decoration: none;
+}
+#homeButton:visited {
+  text-decoration: none;
+}
+#homeButton:hover {
+  text-decoration: none;
+}
+#homeButton:active {
+  text-decoration: none;
+}
+
+#homeButton2:link {
+  text-decoration: none;
+}
+#homeButton2:visited {
+  text-decoration: none;
+}
+#homeButton2:hover {
+  text-decoration: none;
+}
+#homeButton2:active {
+  text-decoration: none;
+}
 
 
 
