@@ -5,7 +5,6 @@ import MainPic from "../component/MainPic.jsx";
 import Navbar2 from "../component/navbar2.jsx";
 import ParkitAppPic from "../../img/ParkitAppPic.jpg";
 import RolandoPortfolioPic from "../../img/RolandoPortfolioPic.jpg";
-import MePic from "../../img/MePic.jpg";
 
 import Footer from "../component/footer.jsx";
 
@@ -130,6 +129,13 @@ export class Demo extends React.Component {
 						<div className="col-12 text-center">
 							<h2>
 								<b>{speach[5]}</b>
+								<Link to="/aboutme">
+									<button
+										type="button"
+										className="btn btn-outline-dark mt-3">
+										Learn More About Me
+									</button>
+								</Link>
 							</h2>
 						</div>
 					</div>
