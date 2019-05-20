@@ -81,7 +81,7 @@
 }
 
 #homeButton:hover{
-  color: #d9d9d9;
+  color: #404040;
   text-decoration: none;
 }
 
@@ -284,6 +284,29 @@ fade-exit.fade-exit-active{
 #homeButton2:active {
   text-decoration: none;
 }
+
+#footerLink:link {
+  text-decoration: none;
+}
+#footerLink:visited {
+  text-decoration: none;
+}
+#footerLink:hover {
+  text-decoration: none;
+  color: #d9d9d9;
+}
+#footerLink:active {
+  text-decoration: none;
+}
+
+#footerLink{
+  transition: .5s ease;
+  text-decoration: none; 
+  color: #404040
+
+}
+
+
 
 #aboutMeWrapper{
   height: 100%;

@@ -13,24 +13,48 @@ export default class Footer extends Component {
 						<div className="row">
 							<div className="col text-center">
 								<div className="my-3">
-									<i className="far fa-envelope fa-2x" />
+									<a
+										className="far fa-envelope fa-2x"
+										href="mailto:wboakye@gmail.com"
+										id="footerLink"
+									/>
 								</div>
 								<div className="my-3">
-									<i className="fab fa-linkedin-in fa-2x" />
+									<a
+										className="fab fa-linkedin-in fa-2x"
+										href="https://www.linkedin.com/in/william-boakye-064824a8/"
+										id="footerLink"
+									/>
 								</div>
 								<div className="my-3">
-									<i className="fab fa-github fa-2x" />
+									<a
+										className="fab fa-github fa-2x"
+										href="https://github.com/wboakye"
+										id="footerLink"
+									/>
 								</div>
 							</div>
 							<div className="col text-center">
 								<div className="my-3">
-									<i className="fab fa-instagram fa-2x" />
+									<a
+										className="fab fa-instagram fa-2x"
+										href="https://www.instagram.com/whataboutwill/"
+										id="footerLink"
+									/>
 								</div>
 								<div className="my-3">
-									<i className="fab fa-twitter fa-2x" />
+									<a
+										className="fab fa-twitter fa-2x"
+										href="https://twitter.com/boakyetweets"
+										id="footerLink"
+									/>
 								</div>
 								<div className="my-3">
-									<i className="fab fa-facebook-square fa-2x" />
+									<a
+										className="fab fa-facebook-square fa-2x"
+										href="https://www.facebook.com/wboakye"
+										id="footerLink"
+									/>
 								</div>
 							</div>
 						</div>

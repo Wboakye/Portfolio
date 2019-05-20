@@ -22,7 +22,7 @@ export class Demo extends React.Component {
 		];
 		let explained = [
 			"I do what I do for the endorphin rush of the accomplishment. I break overbearing problems into well-organized pieces, and in doing so, the small wins keep on coming.",
-			"I'm curious. Some might even say I'm knowsey. I'm easily intrigued things I don't know how to do. Leisure time for me is getting stuck in a 2 hour Wikipedia hole reading about all the possibilities of blockchain tech (true story)."
+			"I'm curious. Some might even say I'm knowsey. I'm easily intrigued by things I don't know how to do. Leisure time for me is getting stuck in a 2 hour Wikipedia hole reading about all the possibilities of blockchain tech (true story)."
 		];
 		return (
 			<div className="container-fluid p-0" id="demoWrapper">

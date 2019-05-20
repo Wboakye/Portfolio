@@ -10,8 +10,7 @@
 		"deploy": "node deploy-to-github.js"
 	},
 	"author": [
-		"Alejandro Sanchez",
-		"Ignacio Cordoba"
+		"William Boakye"
 	],
 	"license": "ISC",
 	"devDependencies": {
