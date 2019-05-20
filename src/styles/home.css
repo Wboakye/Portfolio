@@ -314,4 +314,12 @@ fade-exit.fade-exit-active{
 }
 
 
+@media screen and (max-width: 576px){
+  #homeButton2{
+    font-size: 75%;
+  }
+  #homeButton{
+    font-size: 75%;
+  }
 
+}
