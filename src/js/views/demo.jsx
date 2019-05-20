@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import MainImage from "../../img/mainImage.jpg";
-import MainPic from "../component/MainPic.jsx";
+import LandingPg from "../../img/landingPg.png";
+
 import Navbar2 from "../component/navbar2.jsx";
 import ParkitAppPic from "../../img/ParkitAppPic.png";
 import RolandoPortfolioPic from "../../img/RolandoPortfolioPic.png";
@@ -93,7 +93,24 @@ export class Demo extends React.Component {
 						</div>
 					</div>
 					<div className="col-lg-4 pt-3">
-						<MainPic />
+						<div className="portContainer">
+							<img
+								src={LandingPg}
+								alt="Avatar"
+								className="image rounded shadow-lg"
+								id="portImage"
+							/>
+							<Link to="/landingpgex">
+								<div className="overlay rounded shadow-lg">
+									<div className="text">
+										<h5>Landing Page</h5>
+										<i className="fab fa-html5 fa-2x " />
+										<i className="fab fa-css3-alt fa-2x" />
+										<i className="fab fa-js-square fa-2x" />
+									</div>
+								</div>
+							</Link>
+						</div>
 					</div>
 				</div>
 				<div className="container mt-5" id="demoSpeach">

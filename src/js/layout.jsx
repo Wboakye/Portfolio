@@ -6,6 +6,8 @@ import { Demo } from "./views/demo.jsx";
 import { Parkit } from "./views/parkit.jsx";
 import { RoPortfolio } from "./views/roPortfolio.jsx";
 import { AboutMe } from "./views/aboutMe.jsx";
+import { LandingPgEx } from "./views/landingPgEx.jsx";
+
 import { Single } from "./views/single.jsx";
 import injectContent from "./store/appContext.jsx";
 import "../styles/home.css";
@@ -38,6 +40,10 @@ export class Layout extends React.Component {
 										<Route
 											path="/roportfolio"
 											component={RoPortfolio}
+										/>
+										<Route
+											path="/landingpgex"
+											component={LandingPgEx}
 										/>
 										<Route
 											path="/aboutme"

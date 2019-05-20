@@ -46,7 +46,7 @@ export class Parkit extends Component {
 						<div className="row justify-content-center border rounded my-5">
 							<div className="col-9 p-3">
 								<p id="parkitP">
-									A location fully responsive based web
+									A location fully responsive web based
 									application built using React.js, and
 									Django/Python. Park.it allows the end-user
 									to search for nearby parking locations,

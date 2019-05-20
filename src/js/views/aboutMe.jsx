@@ -10,7 +10,7 @@ export class AboutMe extends Component {
 		let bio = [
 			"Here comes the bio...",
 			"Born and raised in Broward, Florida, where the sun is rich and the food has sabor, I spent much of my early life working in retail and customer service.",
-			"In 2015 I moved south to Miami where I eventually joined the U.S. Air Force Researve and began working as an avionics technician on the F-16 Fighting Falcon.",
+			"In 2015 I moved south to Miami where I eventually joined the U.S. Air Force Reserve and began working as an avionics technician on the F-16 Fighting Falcon.",
 			"Simultaneously, I began teaching myself how to code, and eventually enrolled into a Web Development bootcamp (4Geeks Academy) which served as a catalyst in my development carreer."
 		];
 		return (
